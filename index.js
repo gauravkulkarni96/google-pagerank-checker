@@ -27,9 +27,9 @@ function jenkins(strurl) {
     c = safeAdd(c, (url[k+8] | (url[k+9] << 8) | (url[k+10] << 16) | (url[k+11] << 24)));
 
     var ret = mix(a, b, c);
-    a = ret[];
-    b = ret[];
-    c = ret[];
+    a = ret[0];
+    b = ret[1];
+    c = ret[2];
 
     k += 12;
     len -= 12;
