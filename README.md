@@ -11,9 +11,3 @@ the Google Toolbar endpoint to grab pagerank for any url.
 
 Install with `npm install google-pagerank` or include `google-pagerank` in your module's package.json.
 
-
-## Command line
-
-    node index.js "http://ianww.com"
-    ==> 3
-
